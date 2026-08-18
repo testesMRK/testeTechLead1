@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: pedidos-db
+  description: Banco PostgreSQL que armazena pedidos e eventos relacionados
+  tags:
+    - postgres
+    - database
+spec:
+  type: database
+  lifecycle: production
+  owner: user:default/adriana
+  system: plataforma-ecommerce
